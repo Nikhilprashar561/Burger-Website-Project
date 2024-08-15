@@ -1,0 +1,282 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Burger-Store</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <header class="header" id="header">
+      <nav class="nav container"> 
+         <a href="" class="nav--logo">
+            <div>
+               <img src="img/logo-burger.svg">
+            </div>
+            Burger
+         </a>
+         <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+               <li>
+                  <a href="home" class="nav-link active-link">Home</a>
+               </li>
+               <li>
+                  <a href="recipe" class="nav-link active-link">Recipe</a>
+               </li>
+               <li>
+                  <a href="popular" class="nav-link active-link">Popular</a>
+               </li>
+               <li>
+                  <a href="delivery" class="nav-link active-link">Delivery</a>
+               </li>
+               <li>
+                  <a href="contact" class="nav-link active-link">Contact</a>
+               </li>
+            </ul>
+            <div class="nav-close" id="nav-close">
+               <i class="fa-solid fa-xmark"></i>
+            </div>
+         </div>
+         <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-house"></i>
+         </div>
+      </nav>
+
+   </header>
+
+   <main class="main">
+      <section class="home section" id="home">
+         <div class="home-container container grid">
+            <div class="home-data">
+               <h1 class="home-title">Love Every<br>Burger</h1>
+               <p class="home-description">
+                  We serve the best burger on the planet,
+                   paving the way of coocking and preparing
+                    hot, delicious burgers.
+               </p>
+   
+               <a href="popular" class="button">Bite Now</a>
+               <img src="img/sticker-potatoes.svg" alt="image" class="home-sticker">
+            </div>
+            <div class="home-image">
+               <img src="img/home-burger.png" alt="image" class="burger">
+               <img src="img/home-dish.png" alt="image" class="dish">
+               <img src="img/home-potato.png" alt="" class="ingrediant patato-1">
+               <img src="img/home-potato.png" alt="" class="ingrediant patato-2">
+               <img src="img/home-tomato.png" alt="" class="ingrediant tomato-1">
+               <img src="img/home-tomato.png" alt="" class="ingrediant tomato-2">
+               <img src="img/home-lettuce.png" alt="" class="ingrediant lecttue-1">
+               <img src="img/home-lettuce.png" alt="" class="ingrediant lecttue-2">
+            </div>
+         </div>
+ 
+      </section>
+      <section class="recipe section" id="recipe">
+         <h2 class="second-title">Our Secret Recipe</h2>
+         <div class="recipe-container container grid">
+            <div class="recipe-img">
+               <img src="img/recipe-burger.png" alt="image" class="recipe-image">
+            </div>
+            <div class="recipe-data">
+               <div class="recipe-card">
+                  <div class="recipe-box">
+                     <img src="img/recipe-bread.png" alt="image">
+                  </div>
+                  <div>
+                     <h2 class="recipe-title">Bread</h2>
+                     <p class="recipe-description">Fresh bread,baked to prefection</p>
+                  </div>
+               </div>
+               <div class="recipe-card">
+                  <div class="recipe-box">
+                     <img src="img/recipe-cheese.png" alt="image">
+                  </div>
+                  <div>
+                     <h2 class="recipe-title">Cheese</h2>
+                     <p class="recipe-description">Cheese for a fantastic and healthy future</p>
+                  </div>
+               </div>
+               <div class="recipe-card">
+                  <div class="recipe-box">
+                     <img src="img/recipe-meat.png" alt="image">
+                  </div>
+                  <div>
+                     <h2 class="recipe-title">Meat</h2>
+                     <p class="recipe-description">100% pure beef,big and meaty</p>
+                  </div>
+               </div>
+               <div class="recipe-card">
+                  <div class="recipe-box">
+                     <img src="img/recipe-vegetable.png" alt="image">
+                  </div>
+                  <div>
+                     <h2 class="recipe-title">Vegetables</h2>
+                     <p class="recipe-description">Vegetables full of a essence of nature and organic</p>
+                  </div>
+               </div>
+               <div class="recipe-card">
+                  <div class="recipe-box">
+                     <img src="img/recipe-sauces.png" alt="image">
+                  </div>
+                  <div>
+                     <h2 class="recipe-title">Sauces</h2>
+                     <p class="recipe-description">Fresh Sauces,delicious for the plate</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </section>
+      <section class="popular section" id="popular">
+         <h2 class="section-title">Most Devoured <br> Burgers</h2>
+         <div class="popular-container container grid">
+
+            <article class="popular-card">
+               <img src="img/popular-burger-chicken.png" alt="image" class="popular-img">
+               <h2 class="popular-title">Chicken <br> Burger</h2>
+               <span class="popular-price">$6</span>
+               <button class="popular-button">
+                  <i class="fa-solid fa-bag-shopping"></i>
+               </button>
+            </article>
+
+            <article class="popular-card">
+               <img src="img/popular-burger-meat.png" alt="image" class="popular-img">
+               <h2 class="popular-title">Meat <br> Burger</h2>
+               <span class="popular-price">$10</span>
+               <button class="popular-button">
+                  <i class="fa-solid fa-bag-shopping"></i>
+               </button>
+            </article>
+
+            <article class="popular-card">
+               <img src="img/popular-burger-grill.png" alt="image" class="popular-img">
+               <h2 class="popular-title">Grill <br> Burger</h2>
+               <span class="popular-price">$12</span>
+               <button class="popular-button">
+                  <i class="fa-solid fa-bag-shopping"></i>
+               </button>
+            </article>
+
+            <article class="popular-card">
+               <img src="img/popular-burger-classic.png" alt="image" class="popular-img">
+               <h2 class="popular-title">Classic <br> Burgers</h2>
+               <span class="popular-price">$8</span>
+               <button class="popular-button">
+                  <i class="fa-solid fa-bag-shopping"></i>
+               </button>
+            </article>
+
+            <article class="popular-card">
+               <img src="img/popular-burger-big.png" alt="image" class="popular-img">
+               <h2 class="popular-title">Big <br> Burger</h2>
+               <span class="popular-price">$15</span>
+               <button class="popular-button">
+                  <i class="fa-solid fa-bag-shopping"></i>
+               </button>
+            </article>
+            
+         </div>
+
+      </section>
+      <section class="delivery section" id="delivery">
+         <div class="dilvery-container contaoner grid">
+            <div class="container-data">
+               <h2 class="dilvery-title">Fast Delivery</h2>
+               <p class="delivery-description">
+                  Place your order for your favourite burger
+                  and we will deliver it to  your door in minutes,
+                  get in touch and don't leave hungry.
+               </p>
+               <a href="" class="button">Contact Now</a>
+               <img src="img/sticker-glass.svg" alt="image" class="delivery-sticker">
+            </div>
+            <img src="img/delivery-burger.png" alt="" class="delivery-img">
+         </div>
+
+      </section>
+      <section class="contact section" id="contact">
+         <div class="contact-container container grid">
+            <h2 class="section-title">
+               Contact Now
+            </h2>
+            <div class="contact-content grid">
+               <div class="contact-data grid">
+                  <div>
+                     <h3 class="contact-title">
+                        Write Us
+                     </h3>
+                     <div class="social-contact">
+                        <a href="" target="_blank">
+                           <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="" target="_blank">
+                           <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        
+                        <a href="" target="_blank">
+                           <i class="fa-brands fa-instagram"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div>
+                     <h3 class="contact-title">Call us on order</h3>
+                     <address class="contact-info">
+                        +00-45981-48245<br>
+                        +11-24805
+                     </address>
+                  </div>
+
+                  <div>
+                     <h3 class="contact-title">Find us here</h3>
+                     <address class="contact-info">
+                        Pathankot-Punjab-India<br>
+                        Manwal-Khanpur-145001
+                     </address>
+                  </div>
+               </div>
+               <div class="contact-img">
+                  <img src="img/contact-man.png" alt="image" class="contact-image">
+               </div>
+            </div>
+            <img src="img/sticker-burger.svg" alt="image" class="contact-sticker">
+            <img src="img/sticker-soda.svg" alt="" class="contact-sticker2">
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="footer-container container grid">
+         <a href="" class="footer-logo">Burger</a>
+         <div class="footer-content grid">
+            <a href="" class="footer-link">Term & Agreements</a>
+            <a href="" class="footer-link">Privcy Policies</a>
+            <div class="footer-social">
+               <a href="" target="_blank">
+                  <i class="fa-brands fa-square-x-twitter"></i>
+               </a>
+               <a href="" target="_blank">
+                  <i class="fa-brands fa-telegram"></i>
+               </a>
+               <a href="" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <span class="footer-copy">
+         &#169; All Rights Reserveb by Nikhil.Co Private Limited
+      </span>
+
+   </footer>
+
+   <a href="" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up"></i>
+   </a>
+   <script src="scrollreveal.min.js"></script>
+ </body>
+ <script src="index.js"></script>
+ </html>
